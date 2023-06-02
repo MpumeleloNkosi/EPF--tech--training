@@ -1,0 +1,12 @@
+i = 600851475143
+j= 2
+
+while j>=2:
+    num = i%j
+    if(num==0):
+        i=i/j
+        print(j)
+    else:
+        j=j+1
+
+print("x")
